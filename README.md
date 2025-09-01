@@ -24,7 +24,6 @@ Starter **Expo React Native** + **Backend Node.js Docker** (Postgres).
 
 ### 1) Backend (Docker)
 ```bash
-cp .env.example .env
 docker compose up --build
 ```
 - API: http://localhost:3000
