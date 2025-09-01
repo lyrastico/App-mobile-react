@@ -1,0 +1,82 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# --- Logs ---
+logs
+*.log
+*.out
+*.err
+
+# --- React Native ---
+# Expo
+.expo/
+.expo-shared/
+
+# Metro bundler
+.expo/web-build/
+.expo/cache/
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.apk
+*.keystore
+*.jks
+local.properties
+.gradle/
+.idea/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/Podfile.lock
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Linux ---
+*~
+.nfs*
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- VSCode / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Misc ---
+coverage/
+dist/
+build/
+tmp/
+.cache/
