@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "JournalVoyage",
+    "slug": "journal-voyage",
+    "scheme": "journalvoyage",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "L'app a besoin de la caméra pour prendre des photos de votre voyage.",
+        "NSLocationWhenInUseUsageDescription": "L'app utilise votre position pour géolocaliser vos photos."
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION"],
+      "package": "com.piscine.journalvoyage",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "replace-with-your-id"
+      }
+    }
+  }
+}
