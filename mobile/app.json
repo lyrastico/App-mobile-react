@@ -5,7 +5,9 @@
     "scheme": "journalvoyage",
     "version": "1.0.0",
     "orientation": "portrait",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
@@ -14,7 +16,13 @@
       }
     },
     "android": {
-      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION"],
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": { "apiKey": "TA_CLE_API_GOOGLE_ICI" }
+      },
       "package": "com.piscine.journalvoyage",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -25,6 +33,9 @@
       "eas": {
         "projectId": "replace-with-your-id"
       }
-    }
+    },
+    "plugins": [
+      "expo-maps"
+    ]
   }
 }
